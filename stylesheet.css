@@ -1,0 +1,54 @@
+body {
+  background: repeating-linear-gradient(45deg, DarkSlateBlue, DarkSlateBlue, 4%, MediumPurple 4%, MediumPurple 8%);
+  height: 100vh;
+  color: white;
+  font-family: sans-serif;
+}
+
+.card{
+  border: 3px solid;
+  border-radius: 16px;
+  width: 600px;
+  text-align: center;
+  padding: 32px;
+  background: linear-gradient(#0004, #fff4);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(20px);
+}
+
+.perfil img{
+  border: 1px solid;
+  border-radius: 50%;
+  width: 120px;
+  object-fix: cover;
+  box-shadow: 0 0 5px;
+}
+
+.perfil h1{
+  font-size: 24px;
+}
+
+.redes{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+
+.redes a{
+  color: white;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 8px;
+  border-radius: 8px;
+  background: linear-gradient(#0004, #fff4);
+}
+
+.minibio{
+  border: 1px solid;
+  padding: 8px;
+  border-radius: 8px;
+  background: linear-gradient(#0004, #fff4)
+}
